@@ -35,6 +35,10 @@ body{
     width: 100%;
     justify-content: space-between;
 }
+.container .content.disable{
+   opacity: 0.5;
+   pointer-events: none;
+}
 .content .controls{
     width: calc(100% / 2 - 5px);
     border: 1px solid #999;
